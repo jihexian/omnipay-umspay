@@ -1,5 +1,5 @@
 {
-    "name": "sky/omnipay-umspay",
+    "name": "wsyone/omnipay-umspay",
     "description": "银联商务支付",
     "type": "library",
     "autoload": {
@@ -10,7 +10,7 @@
     "license":"MIT",
     "authors": [
         {
-            "name": "sky",
+            "name": "wsyone",
             "email": "774294449@qq.com"
         }
     ],
