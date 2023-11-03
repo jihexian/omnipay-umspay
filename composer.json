@@ -1,0 +1,32 @@
+{
+    "name": "sky/omnipay-umspay",
+    "description": "银联商务支付",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\UmsPay\\": "src/"
+        }
+    },
+    "license":"MIT",
+    "authors": [
+        {
+            "name": "sky",
+            "email": "774294449@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+  "require": {
+    "omnipay/common": "^3.0",
+    "php-http/guzzle6-adapter": "*"
+  },
+  "require-dev": {
+    "omnipay/tests": "^3.0",
+    "squizlabs/php_codesniffer": "3.*",
+        "http-interop/http-factory-guzzle": "^1.2"
+  },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
